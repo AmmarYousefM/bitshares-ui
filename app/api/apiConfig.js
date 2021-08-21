@@ -83,6 +83,14 @@ export const settingsAPIs = {
             location: "Locally hosted"
         },
         {
+            url: "wss://public.xbts.io/ws",
+            region: "Europe",
+            country: "Germany",
+            location: "Nürnberg",
+            operator: "Witness: xbtsio-wallet",
+            contact: "telegram:EuropaSH"
+        },
+        {
             url: "wss://dex.iobanker.com/ws",
             region: "Western Europe",
             country: "Germany",
@@ -145,12 +153,12 @@ export const settingsAPIs = {
             contact: "telegram:Zapata_42"
         },
         {
-            url: "wss://public.xbts.io/ws",
-            region: "Europe",
+            url: "wss://dex.iobanker.com/ws",
+            region: "Western Europe",
             country: "Germany",
-            location: "Nürnberg",
-            operator: "Witness: xbtsio-wallet",
-            contact: "telegram:EuropaSH"
+            location: "Frankfurt",
+            operator: "Witness: iobanker-core",
+            contact: "email:admin@iobanker.com"
         },
         // Testnet
         {
