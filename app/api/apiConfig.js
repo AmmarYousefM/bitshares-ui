@@ -91,14 +91,6 @@ export const settingsAPIs = {
             contact: "telegram:EuropaSH"
         },
         {
-            url: "wss://dex.iobanker.com/ws",
-            region: "Western Europe",
-            country: "Germany",
-            location: "Frankfurt",
-            operator: "Witness: iobanker-core",
-            contact: "email:admin@iobanker.com"
-        },
-        {
             url: "wss://nexus01.co.uk/ws",
             region: "Northern Europe",
             country: "England",
