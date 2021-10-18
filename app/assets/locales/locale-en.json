@@ -276,6 +276,8 @@
             "backing": "Short backing asset",
             "base": "Base asset amount",
             "base_name": "Base asset",
+            "core_asset": "BTS Asset Amount",
+            "issued_asset": "Issued Asset Amount",
             "bitasset_opts": "SmartCoin options",
             "cer_warning_1": "Warning",
             "cer_warning_2": "Make sure your core exchange rate is higher than the market price, otherwise people will buy your token from the market and drain your fee pool via implicit arbitrage. The core exchange rate should be updated regularly to reflect market pricing of your asset.",
