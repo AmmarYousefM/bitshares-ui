@@ -1002,7 +1002,7 @@ class AccountAssetCreate extends React.Component {
                                                 >
                                                     <Translate
                                                         component="label"
-                                                        content="account.user_issued_assets.quote"
+                                                        content="account.user_issued_assets.core_asset"
                                                     />
                                                     <div className="inline-label">
                                                         <input
@@ -1023,7 +1023,7 @@ class AccountAssetCreate extends React.Component {
                                             </div>
                                             <div className="grid-block no-margin small-12 medium-6">
                                                 <AmountSelector
-                                                    label="account.user_issued_assets.base"
+                                                    label="account.user_issued_assets.issued_asset"
                                                     amount={
                                                         core_exchange_rate.base
                                                             .amount
@@ -1038,7 +1038,7 @@ class AccountAssetCreate extends React.Component {
                                                     }
                                                     assets={[
                                                         core_exchange_rate.base
-                                                            .asset_id
+                                                    //        .asset_id
                                                     ]}
                                                     placeholder="0.0"
                                                     tabIndex={1}
