@@ -10,9 +10,9 @@ A Bridge Instant Swap Service is responsible for moving cryptocurrencies between
 
 ## IOB.XRP features
 - Instant swap
-- Min. amount: 20 XRP
+- Min. Deposit/Withdraw: 20 XRP
+- No Max. limit
 - No KYC
-- No limits
 - Low market fees
 - Low withdraw fee
 
